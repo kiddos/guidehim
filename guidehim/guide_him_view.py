@@ -93,11 +93,11 @@ class GuideHimView(object):
 
   def update(self):
     if self.dx != 0:
-      d = -DELTA if self.dx > 0 else 0
+      d = -DELTA if self.dx > 0 else DELTA
       self.gx -= d
       self.dx += d
     if self.dy != 0:
-      d = -DELTA if self.dy > 0 else 0
+      d = -DELTA if self.dy > 0 else DELTA
       self.gy -= d
       self.dy += d
 
