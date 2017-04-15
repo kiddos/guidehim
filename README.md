@@ -1,6 +1,8 @@
 Guide Him
 =========
 
+![screen_shot](https://raw.githubusercontent.com/kiddos/guidehim/master/screenshot/screenshot1.png)
+
 This is a quick programming game exercise on Markov Decision Processes and Dynamic Programming.
 
 ## Requirement
