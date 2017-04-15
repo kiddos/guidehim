@@ -14,7 +14,7 @@ def reward_function(observation, x, y):
   if state in [0, 4, 8]:
     return 1
   elif state in [1, 2, 3, 5, 6]:
-    return -30
+    return -60
   elif state == 9:
     return 30
 
@@ -53,7 +53,7 @@ def value_iteration(state_shape, observation, max_epoch=600):
 
 
 def main():
-  env = GuideHim('map/simple.map')
+  env = GuideHim('map/easy.map')
   env.seed()
   observation = env.reset()
   print(observation)
