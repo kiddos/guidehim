@@ -37,6 +37,8 @@ The goal is to guide Stone Lin moving towards the goal. If your command move Sto
 
 You might see these objects on the map:
 
+- Empty: (grid value: 0)
+
 - Wall: Stone Lin cannot run through wall (grid value: 1)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/wall.png" width="40" height="40"></img>
 
@@ -54,6 +56,12 @@ You might see these objects on the map:
 
 - 肛肛: It's also not ok to 肛肛 someone else. (grid value 6)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/butt.png" width="40" height="40" style="background: black;"></img>
+
+- Stone Lin: G8 guy. (grid value: 8)
+<img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/g8guy.png" width="40" height="40" style="background: black;"></img>
+
+- goal: Stone Lin's goal. (grid value: 9)
+<img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/goal.png" width="40" height="40"></img>
 
 
 
