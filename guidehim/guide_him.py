@@ -17,7 +17,8 @@ class GuideHim(Env):
   metadata = {'render.modes': ['ansi', 'rgb_array', 'human']}
 
   def __init__(self, path):
-    self.path = path
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    self.path = os.path.join(current_dir, '..', path)
     self.logger = logging.getLogger('guide-him')
     self.logger.setLevel(logging.INFO)
     self._reset()
