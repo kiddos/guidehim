@@ -40,6 +40,8 @@ class GuideHim(Env):
 
   def _step(self, action):
     assert len(action) == 2
+    ox = self.guy.x
+    oy = self.guy.y
     if action[0] != 0:
       self.guy.move_y(action[0])
     else:
@@ -50,9 +52,11 @@ class GuideHim(Env):
     x = self.guy.x
     y = self.guy.y
     if not self.m.in_range(x, y):
-      self.logger.info(NAME + ' ran away.')
-      reward = -1
-      done = True
+      self.logger.info(NAME + ' attempts to run away.')
+      reward = 0
+      done = False
+      self.guy.x = ox
+      self.guy.y = oy
     elif self.m.on_nothing(x, y):
       self.logger.info(NAME + ' is kinda safe.')
       reward = 1
