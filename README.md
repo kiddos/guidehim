@@ -37,22 +37,22 @@ The goal is to guide Stone Lin moving towards the goal. If your command move Sto
 
 You might see these objects on the map:
 
-- Wall: Stone Lin cannot run through wall
+- Wall: Stone Lin cannot run through wall (grid value: 1)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/wall.png" width="40" height="40"></img>
 
-- Fire: If Stone Lin caught on fire, game over.
+- Fire: If Stone Lin caught on fire, game over. (grid value: 2)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/fire.png" width="40" height="40"></img>
 
-- Pond: If Stone Lin fell into a pond, also game over.
+- Pond: If Stone Lin fell into a pond, also game over. (grid value: 3)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/water.png" width="40" height="40"></img>
 
-- Poop: It's ok to step on poop. Totally ok.
+- Poop: It's ok to step on poop. Totally ok. (grid value: 4)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/poop.png" width="40" height="40"></img>
 
-- 尻尻: It's not ok to 尻尻 in public.
+- 尻尻: It's not ok to 尻尻 in public. (grid value: 5)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/mas.png" width="40" height="40"></img>
 
-- 肛肛: It's also not ok to 肛肛 someone else.
+- 肛肛: It's also not ok to 肛肛 someone else. (grid value 6)
 <img src="https://raw.githubusercontent.com/kiddos/guidehim/master/guidehim/images/butt.png" width="40" height="40" style="background: black;"></img>
 
 
