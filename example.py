@@ -10,6 +10,8 @@ def main():
   while True:
     observation, reward, done, _ = env.step(env.action_space.sample())
     env.render()
+    if done:
+      break
 
 
 if __name__ == '__main__':
